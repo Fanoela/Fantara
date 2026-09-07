@@ -1,3 +1,4 @@
 # Fantara
 
-Fantara is an astronomy education app project in progress
+Fantara is an astronomy education app.
+The project is in progress
