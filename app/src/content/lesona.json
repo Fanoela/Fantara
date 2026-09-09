@@ -1,0 +1,17 @@
+[
+  {
+    "id": "seasons",
+    "title": "Ny Vanim-potoana",
+    "body": "Ny vanim-potoana dia miankina amin'ny fiongan'ny axan'ny tany (23.5 degre), fa tsy ny halavitry ny tany amin'ny masoandro. Rehefa mitodika mankany amin'ny masoandro ny sisin-tany iray, dia fahavaratra any; ary ririnina kosa any amin'ny sisin-tany hafa."
+  },
+  {
+    "id": "moon-phases",
+    "title": "Ny Dingan'ny Volana",
+    "body": "Ny dingan'ny volana dia vokatry ny fihodinan'ny volana manodidina ny tany, izay mahatonga ny ampahany hita amin'ny masoandro miova isan'andro."
+  },
+  {
+    "id": "planets",
+    "title": "Ny Planeta",
+    "body": "Ny planeta dia izay rehetra miodina mivantana amina kintana, miendrika boribory, ary mahaleo tena amin'ny lalany. Miisa valo ny planeta ato amin'ny rafi-masoandro: Mercure, Venus, Terre (ny Tany), Mars, Jupiter, Saturn, Uranus, Neptune"
+  }
+]

@@ -1,4 +1,5 @@
 import { Text, View, StyleSheet, ImageBackground, Pressable } from 'react-native';
+import { Link } from 'expo-router';
 
 export default function HomeScreen() {
   return (
@@ -9,31 +10,22 @@ export default function HomeScreen() {
     >
       <Text style={styles.title}>HAIKINTANA</Text>
       <Text style={styles.subtitle}>Ho an'ny rehetra</Text>
-       <Pressable
-        style={styles.button}
-        onPress={() => alert('Button pressed!')}
-      >
-        <Text style={styles.buttonText}>Lesona</Text>
-      </Pressable>
 
-             <Pressable
-        style={styles.button}
-        onPress={() => alert('Button pressed!')}
-      >
+      <Link href="/lesson" asChild>
+        <Pressable style={styles.button}>
+          <Text style={styles.buttonText}>Lesona</Text>
+        </Pressable>
+      </Link>
+
+      <Pressable style={styles.button} onPress={() => alert('Button pressed!')}>
         <Text style={styles.buttonText}>Fanontaniana</Text>
       </Pressable>
 
-      <Pressable
-        style={styles.button}
-        onPress={() => alert('Button pressed!')}
-      >
+      <Pressable style={styles.button} onPress={() => alert('Button pressed!')}>
         <Text style={styles.buttonText}>Hanova</Text>
       </Pressable>
 
-            <Pressable
-        style={styles.button}
-        onPress={() => alert('Button pressed!')}
-      >
+      <Pressable style={styles.button} onPress={() => alert('Button pressed!')}>
         <Text style={styles.buttonText}>Hivoaka</Text>
       </Pressable>
     </ImageBackground>
@@ -55,14 +47,13 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 24,
   },
-
   button: {
     backgroundColor: '#ff9500',
     paddingVertical: 14,
     paddingHorizontal: 32,
     borderRadius: 20,
     marginTop: 20,
-    width:180,
+    width: 180,
   },
   buttonText: {
     color: '#FFFFFF',
