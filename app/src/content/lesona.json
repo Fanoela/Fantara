@@ -2,16 +2,33 @@
   {
     "id": "seasons",
     "title": "Ny Vanim-potoana",
-    "body": "Ny vanim-potoana dia miankina amin'ny fiongan'ny axan'ny tany (23.5 degre), fa tsy ny halavitry ny tany amin'ny masoandro. Rehefa mitodika mankany amin'ny masoandro ny sisin-tany iray, dia fahavaratra any; ary ririnina kosa any amin'ny sisin-tany hafa."
+    "body": "Ny vanim-potoana dia miankina amin'ny fitongilanan'ny tany (23.5 degre), fa tsy ny halavitry ny tany amin'ny masoandro. Rehefa mitodika mankany amin'ny masoandro ny sisin-tany iray, dia fahavaratra any; ary ririnina kosa any amin'ny sisin-tany hafa."
   },
   {
-    "id": "moon-phases",
-    "title": "Ny Dingan'ny Volana",
-    "body": "Ny dingan'ny volana dia vokatry ny fihodinan'ny volana manodidina ny tany, izay mahatonga ny ampahany hita amin'ny masoandro miova isan'andro."
+    "id": "sun",
+    "title": "Ny Masoandro",
+    "body": "Ny Masoandro no kintana iodinan'ny tany sy ireo planeta fito hafa. Lehibe lavitra noho ny tany izy ary mahatratra 5500 degre C ny hafanany eo amin'ny velarany, izany hoe avo dimanjato heny ny hafanan'ny rano mangotraka ary 15 tapitrisa degre C kosa ny anatiny. Mavomavo moa no ahitantsika azy saingy rehefa mivoaka ivelan'ny atmosfera kosa no ijerena azy dia toa fotsy no fahitana azy. Mahatratra 150 tapitrisa km no elanelana misy eo amin'ny tany sy ny masoandro. Ny Masoandro no loharano ipoiran'ny hazavana sy hafanana ho an'ny tany ka miantoka tanteraka ny fisian'ny zavamananaina eto an-tany. Indray andro any, tombanana ho afaka 5 na 7 lavitrisa taona dia ho faty tanteraka izy."
+  },
+  {
+    "id": "moon",
+    "title": "Ny Volana",
+    "body": "Ny Volana no satelita natoraly miodina manodidina ny tany, 384.000 km miala ny tany ary mahavita miodina manodidina ny tany ao anatin'ny 29 andro. Ny dingan'ny volana dia vokatry ny fihodinan'ny volana manodidina ny tany, izay mahatonga ny ampahany hita amin'ny masoandro miova isan'andro. Mazava ny volana satria mitaratra ny hazavana azony avy amin'ny masoandro fa tsy mamorona ny hazavany manokana akory."
   },
   {
     "id": "planets",
     "title": "Ny Planeta",
-    "body": "Ny planeta dia izay rehetra miodina mivantana amina kintana, miendrika boribory, ary mahaleo tena amin'ny lalany. Miisa valo ny planeta ato amin'ny rafi-masoandro: Mercure, Venus, Terre (ny Tany), Mars, Jupiter, Saturn, Uranus, Neptune"
+    "body": "Ny planeta dia izay astra miodina mivantana amina kintana, miendrika boribory, ary mahaleo tena amin'ny lalany. Miisa valo ny planeta ato amin'ny rafi-masoandro: Mercure, Venus (antsoina ihany koa hoe kintana fitarikandro), Terre (Tany), Mars, Jupiter, Saturn, Uranus, Neptune."
+  },
+
+  {
+    "id": "stars",
+    "title": "Ny Kintana",
+    "body": "Ny kintana dia astra mamorona ny hazavany manokana. Ny kintana akaiky indrindra antsika dia ny Masoandro. Araka ny NASA, dia tombanana ho 1,000,000,000,000,000,000,000,000 any ho any ny isan'ny kintana misy. Ny kintana dia toa antsika olombelona, teraka, miaina ary maty. Teraka anaty gazy (gaz) sy vovoka (poussiere) lehibe ny kintana iray, miaina aman-tapitrisa na amina miliara taona ary maty. Miankina amin'ny halehibeny ny fomba hafatesana kintana iray, ny kintana tena lehibe dia miafara amin'ny fipoahana goavana antsoina hoe supernova."
+  },
+
+  {
+    "id": "shooting-stars",
+    "title": "Ny Fantara",
+    "body": "Ny Fantara na koa hoe étoile filante na météore dia tsy kintana fa vato mitsingevana eny amin'ny habakabaka eny, rehefa miditra ny atmosferan'ny tany izy dia mirehitra mazava ka mahatonga azy manana endrika toy ny kintana."
   }
 ]
