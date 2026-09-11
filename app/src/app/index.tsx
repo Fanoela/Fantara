@@ -1,5 +1,6 @@
-import { Text, View, StyleSheet, ImageBackground, Pressable } from 'react-native';
+import { Text, View, StyleSheet, ImageBackground, Pressable, BackHandler, Platform } from 'react-native';
 import { Link } from 'expo-router';
+import { Ionicons } from '@expo/vector-icons';
 
 export default function HomeScreen() {
   return (
@@ -8,6 +9,14 @@ export default function HomeScreen() {
       style={styles.container}
       resizeMode="cover"
     >
+    <Link href="/setting" asChild>
+    <Pressable
+      style={styles.settingsIcon}
+    >
+      <Ionicons name="settings-outline" size={28} color="#FFFFFF" />
+    </Pressable>
+    </Link>
+
       <Text style={styles.title}>HAIKINTANA</Text>
       <Text style={styles.subtitle}>Ho an'ny rehetra</Text>
 
@@ -18,15 +27,20 @@ export default function HomeScreen() {
       </Link>
 
       <Pressable style={styles.button} onPress={() => alert('Button pressed!')}>
-        <Text style={styles.buttonText}>Fanontaniana</Text>
+        <Text style={styles.buttonText}>Fitsapana</Text>
       </Pressable>
 
-      <Pressable style={styles.button} onPress={() => alert('Button pressed!')}>
-        <Text style={styles.buttonText}>Hanova</Text>
+      <Pressable style={styles.button} onPress={() => 
+        alert('Button pressed!')
+      }>
+        <Text style={styles.buttonText}>Hamantatra</Text>
       </Pressable>
 
-      <Pressable style={styles.button} onPress={() => alert('Button pressed!')}>
-        <Text style={styles.buttonText}>Hivoaka</Text>
+
+      <Pressable style={styles.button} onPress={() => 
+        BackHandler.exitApp()
+      }>
+        <Text style={styles.buttonText}>Hiala</Text>
       </Pressable>
     </ImageBackground>
   );
@@ -60,4 +74,10 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: '700',
   },
+  settingsIcon: {
+  position: 'absolute',
+  top: 50,
+  right: 20,
+  zIndex: 10,
+},
 });
